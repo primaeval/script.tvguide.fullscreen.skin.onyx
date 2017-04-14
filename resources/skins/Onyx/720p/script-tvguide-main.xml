@@ -736,7 +736,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4110),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4110),)</visible>
                 </control>
                 <control type="label" id="4011">
                     <description>2nd channel</description>
@@ -749,7 +749,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4111),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4111),)</visible>
                 </control>
                 <control type="label" id="4012">
                     <description>3rd channel</description>
@@ -762,7 +762,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4112),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4112),)</visible>
                 </control>
                 <control type="label" id="4013">
                     <description>4th channel</description>
@@ -775,7 +775,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4113),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4113),)</visible>
                 </control>
                 <control type="label" id="4014">
                     <description>5th channel</description>
@@ -788,7 +788,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4114),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4114),)</visible>
                 </control>
                 <control type="label" id="4015">
                     <description>6th channel</description>
@@ -801,7 +801,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4115),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4115),)</visible>
                 </control>
                 <control type="label" id="4016">
                     <description>7th channel</description>
@@ -814,7 +814,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4116),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4116),)</visible>
                 </control>
                 <control type="label" id="4017">
                     <description>8th channel</description>
@@ -827,7 +827,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4117),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4117),)</visible>
                 </control>
                 <control type="label" id="4018">
                     <description>9th channel</description>
@@ -840,7 +840,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4118),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4118),)</visible>
                 </control>
                 <control type="label" id="4019">
                     <description>10 channel</description>
@@ -853,7 +853,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4119),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
                 </control>
                 <control type="label" id="4020">
@@ -867,7 +867,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4120),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
                 </control>
                 <control type="label" id="4021">
@@ -881,7 +881,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4121),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4121),)</visible>
                 </control>
                 <control type="label" id="4022">
                     <description>13 channel</description>
@@ -894,7 +894,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4122),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4122),)</visible>
                 </control>
                 <control type="label" id="4023">
                     <description>14 channel</description>
@@ -907,7 +907,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4123),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4123),)</visible>
                 </control>
                 <control type="label" id="4024">
                     <description>15 channel</description>
@@ -920,7 +920,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4124),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4124),)</visible>
                 </control>
                 <control type="label" id="4025">
                     <description>16 channel</description>
@@ -933,7 +933,7 @@
                     <font>font13_title</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(4125), )</visible>
+                    <visible>String.IsEqual(Control.GetLabel(4125), )</visible>
                 </control>
 
                 <!-- logo images -->
@@ -944,7 +944,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4110),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4110),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -955,7 +955,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4111),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4111),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -966,7 +966,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4112),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4112),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -977,7 +977,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4113),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4113),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -988,7 +988,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4114),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4114),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -999,7 +999,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4115),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4115),)</visible>
                 </control>
                 <control type="image" id="4116">
                     <description>7th channel</description>
@@ -1008,7 +1008,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4116),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4116),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1019,7 +1019,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4117),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4117),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1030,7 +1030,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4118),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4118),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1041,7 +1041,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4119),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4119),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1052,7 +1052,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4120),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4120),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1063,7 +1063,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4121),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4121),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1074,7 +1074,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4122),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4122),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1085,7 +1085,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4123),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4123),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1096,7 +1096,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4124),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4124),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -1107,7 +1107,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(4125),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(4125),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -2236,7 +2236,7 @@
                 <textcolor>grey</textcolor>
                 <font>font13_title</font>
                 <align>left</align>
-                <!--<visible>StringCompare(Control.GetLabel(6004),)</visible>-->
+                <!--<visible>String.IsEqual(Control.GetLabel(6004),)</visible>-->
                 <visible>true</visible>
             </control>
 
@@ -2513,7 +2513,7 @@
                 <textcolor>grey</textcolor>
                 <font>font13_title</font>
                 <align>left</align>
-                <!--<visible>StringCompare(Control.GetLabel(6004),)</visible>-->
+                <!--<visible>String.IsEqual(Control.GetLabel(6004),)</visible>-->
                 <visible>true</visible>
             </control>
             <control type="label">
@@ -2735,7 +2735,7 @@
                 <textcolor>grey</textcolor>
                 <font>font13_title</font>
                 <align>left</align>
-                <!--<visible>StringCompare(Control.GetLabel(6004),)</visible>-->
+                <!--<visible>String.IsEqual(Control.GetLabel(6004),)</visible>-->
                 <visible>true</visible>
             </control>
             <control type="label">
@@ -3278,7 +3278,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14110),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14110),)</visible>
                 </control>
                 <control type="label" id="14011">
                     <description>2nd channel</description>
@@ -3291,7 +3291,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14111),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14111),)</visible>
                 </control>
                 <control type="label" id="14012">
                     <description>3rd channel</description>
@@ -3304,7 +3304,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <visible>StringCompare(Control.GetLabel(14112),)</visible>
+                    <visible>String.IsEqual(Control.GetLabel(14112),)</visible>
                 </control>
 
                 <!-- logo images -->
@@ -3315,7 +3315,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14110),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14110),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -3326,7 +3326,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14111),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14111),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
@@ -3337,7 +3337,7 @@
                     <width>176</width>
                     <height>40</height>
                     <aspectratio>keep</aspectratio>
-                    <visible>!StringCompare(Control.GetLabel(14112),)</visible>
+                    <visible>!String.IsEqual(Control.GetLabel(14112),)</visible>
                     <align>center</align>
                     <aligny>center</aligny>
                 </control>
