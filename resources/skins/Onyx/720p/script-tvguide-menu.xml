@@ -34,7 +34,7 @@
             <width>220</width>
             <height>700</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>category background</description>
@@ -53,7 +53,7 @@
             <width>220</width>
             <height>700</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>top button background</description>
@@ -176,7 +176,7 @@
             <width>730</width>
             <height>700</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>program background</description>

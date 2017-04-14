@@ -46,7 +46,7 @@
             <width>1260</width>
             <height>60</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>top button background</description>
@@ -65,7 +65,7 @@
             <width>1260</width>
             <height>60</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>bottom buttons background</description>
@@ -85,7 +85,7 @@
             <posy>100</posy>
             <width>1260</width>
             <height>530</height>
-            <texture>grey.png</texture>
+            <texture>tvg-tv.png</texture>
             <visible>true</visible>
         </control>
         <control type="image">
@@ -95,7 +95,7 @@
             <width>1256</width>
             <height>526</height>
             <texture>black-back.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
 
         <control type="image" id="4023">

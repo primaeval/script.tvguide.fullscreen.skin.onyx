@@ -35,7 +35,7 @@
             <width>1260</width>
             <height>700</height>
             <texture>grey.png</texture>
-            <visible>true</visible>
+            <visible>false</visible>
         </control>
         <control type="image">
             <description>main background</description>
