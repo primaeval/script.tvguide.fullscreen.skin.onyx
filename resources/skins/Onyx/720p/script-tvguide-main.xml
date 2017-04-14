@@ -507,12 +507,12 @@
 
                 <control type="label">
                     <description>time label</description>
-                    <posx>0</posx>
+                    <posx>12</posx>
                     <posy>0</posy>
                     <width>180</width>
                     <height>30</height>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <textcolor>white</textcolor>
                     <shadowcolor></shadowcolor>
@@ -734,7 +734,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4110),)</visible>
                 </control>
@@ -747,7 +747,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4111),)</visible>
                 </control>
@@ -760,7 +760,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4112),)</visible>
                 </control>
@@ -773,7 +773,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4113),)</visible>
                 </control>
@@ -786,7 +786,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4114),)</visible>
                 </control>
@@ -799,7 +799,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4115),)</visible>
                 </control>
@@ -812,7 +812,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4116),)</visible>
                 </control>
@@ -825,7 +825,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4117),)</visible>
                 </control>
@@ -838,7 +838,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4118),)</visible>
                 </control>
@@ -851,7 +851,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -865,7 +865,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -879,7 +879,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4121),)</visible>
                 </control>
@@ -892,7 +892,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4122),)</visible>
                 </control>
@@ -905,7 +905,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4123),)</visible>
                 </control>
@@ -918,7 +918,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4124),)</visible>
                 </control>
@@ -931,7 +931,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4125), )</visible>
                 </control>
@@ -1334,7 +1334,7 @@
                 <textcolor>grey</textcolor>
                 <font>font13</font>
                 <align>right</align>
-                <visible>true</visible>
+                <visible>false</visible>
                 <scroll>true</scroll>
                 <label>-</label>
             </control>
