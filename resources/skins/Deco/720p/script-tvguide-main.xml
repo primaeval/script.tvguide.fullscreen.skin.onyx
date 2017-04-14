@@ -260,9 +260,19 @@
                 <aspectratio>-</aspectratio>
                 <align>center</align>
                 <aligny>center</aligny>
-
-
-                <visible>True</visible>
+                <visible>false</visible>
+            </control>
+            <control type="image">
+                <description>footer</description>
+                <posx>427</posx>
+                <posy>480</posy>
+                <width>853</width>
+                <height>238</height>
+                <texture>tvg-tv.png</texture>
+                <aspectratio>stretch</aspectratio>
+                <align>center</align>
+                <aligny>center</aligny>
+                <visible>true</visible>
             </control>
 
             <control type="image" id="4100">
@@ -1269,7 +1279,7 @@
             </control>
             <control type="label" id="7025">
                 <description>Channel name</description>
-                <posx>430</posx>
+                <posx>435</posx>
                 <posy>500</posy>
                 <width>650</width>
                 <height>30</height>
@@ -1282,7 +1292,7 @@
             </control>
             <control type="label" id="7020">
                 <description>Program title</description>
-                <posx>430</posx>
+                <posx>435</posx>
                 <posy>530</posy>
                 <width>845</width>
                 <height>30</height>
@@ -1309,9 +1319,9 @@
                 <visible>true</visible>
             </control>
             <control type="progress" id="7026">
-                <posx>425</posx>
+                <posx>427</posx>
                 <posy>480</posy>
-                <width>855</width>
+                <width>853</width>
                 <height>2</height>
                 <lefttexture />
                 <righttexture />
@@ -1321,9 +1331,9 @@
             </control>
             <control type="textbox" id="7022">
                 <description>Program description</description>
-                <posx>430</posx>
+                <posx>435</posx>
                 <posy>560</posy>
-                <width>845</width>
+                <width>840</width>
                 <height>140</height>
                 <textcolor>white</textcolor>
                 <font>font13</font>
