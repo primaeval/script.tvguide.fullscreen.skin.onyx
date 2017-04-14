@@ -1309,14 +1309,14 @@
                 <visible>true</visible>
             </control>
             <control type="progress" id="7026">
-                <posx>1130</posx>
-                <posy>530</posy>
-                <width>130</width>
-                <height>3</height>
+                <posx>425</posx>
+                <posy>480</posy>
+                <width>855</width>
+                <height>2</height>
                 <lefttexture />
                 <righttexture />
                 <texturebg  colordiffuse="white">tvg-button-nofocus.png</texturebg>
-                <midtexture colordiffuse="grey">tvg-button-focus.png</midtexture>
+                <midtexture colordiffuse="white">tvg-button-focus.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(7026),0)</visible>
             </control>
             <control type="textbox" id="7022">
