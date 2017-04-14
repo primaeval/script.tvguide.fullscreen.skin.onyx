@@ -1381,12 +1381,12 @@
             </control>
             <control type="progress" id="7026">
                 <posx>427</posx>
-                <posy>480</posy>
-                <width>853</width>
+                <posy>478</posy>
+                <width>850</width>
                 <height>2</height>
                 <lefttexture />
                 <righttexture />
-                <texturebg  colordiffuse="white">tvg-button-nofocus.png</texturebg>
+                <texturebg  colordiffuse="">invisible.png</texturebg>
                 <midtexture colordiffuse="white">tvg-button-focus.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(7026),0)</visible>
             </control>
