@@ -1280,20 +1280,20 @@
             <control type="label" id="7025">
                 <description>Channel name</description>
                 <posx>435</posx>
-                <posy>500</posy>
+                <posy>490</posy>
                 <width>650</width>
                 <height>30</height>
                 <textcolor>grey</textcolor>
                 <font>font13</font>
                 <align>left</align>
-                <visible>true</visible>
+                <visible>false</visible>
                 <scroll>true</scroll>
                 <label>-</label>
             </control>
             <control type="label" id="7020">
                 <description>Program title</description>
                 <posx>435</posx>
-                <posy>530</posy>
+                <posy>490</posy>
                 <width>845</width>
                 <height>30</height>
                 <textcolor>white</textcolor>
@@ -1308,7 +1308,7 @@
             <control type="label" id="7021">
                 <description>Program time</description>
                 <posx>1260</posx>
-                <posy>500</posy>
+                <posy>490</posy>
                 <width>1090</width>
                 <height>40</height>
                 <textcolor>white</textcolor>
@@ -1332,7 +1332,7 @@
             <control type="textbox" id="7022">
                 <description>Program description</description>
                 <posx>435</posx>
-                <posy>560</posy>
+                <posy>520</posy>
                 <width>840</width>
                 <height>140</height>
                 <textcolor>white</textcolor>
