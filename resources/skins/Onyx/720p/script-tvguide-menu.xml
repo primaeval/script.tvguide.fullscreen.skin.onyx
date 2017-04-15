@@ -258,7 +258,7 @@
             <align>left</align>
             <aligny>center</aligny>
             <font>font13_title</font>
-            <textcolor>white</textcolor>
+            <textcolor>grey</textcolor>
             <visible>true</visible>
             <label>-</label>
         </control>
