@@ -371,7 +371,7 @@
                     <posy>0</posy>
                     <width>272</width>
                     <height>28</height>
-                    <texture>tvg-program-nofocus.png</texture>
+                    <texture>tvg-time.png</texture>
                     <aspectratio>stretch</aspectratio>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -383,7 +383,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
@@ -394,7 +394,7 @@
                     <posy>0</posy>
                     <width>273</width>
                     <height>28</height>
-                    <texture>tvg-program-nofocus.png</texture>
+                    <texture>tvg-time.png</texture>
                     <aspectratio>stretch</aspectratio>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -406,7 +406,7 @@
                     <posy>0</posy>
                     <width>272</width>
                     <height>30</height>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
@@ -417,7 +417,7 @@
                     <posy>0</posy>
                     <width>273</width>
                     <height>28</height>
-                    <texture>tvg-program-nofocus.png</texture>
+                    <texture>tvg-time.png</texture>
                     <aspectratio>stretch</aspectratio>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -429,7 +429,7 @@
                     <posy>0</posy>
                     <width>272</width>
                     <height>30</height>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
@@ -440,7 +440,7 @@
                     <posy>0</posy>
                     <width>273</width>
                     <height>28</height>
-                    <texture>tvg-program-nofocus.png</texture>
+                    <texture>tvg-time.png</texture>
                     <aspectratio>stretch</aspectratio>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -452,7 +452,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
@@ -464,7 +464,7 @@
                     <posy>0</posy>
                     <width>176</width>
                     <height>28</height>
-                    <texture>tvg-program-nofocus.png</texture>
+                    <texture>tvg-time.png</texture>
                     <aspectratio>stretch</aspectratio>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -490,7 +490,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10</font>
                     <align>right</align>
@@ -522,7 +522,7 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <textcolor>firebrick</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <shadowcolor></shadowcolor>
                     <label>$INFO[System.Time]</label>
