@@ -214,7 +214,7 @@
             <control type="button" id="5001">
                 <description>marker for EPG data view - should be hidden!</description>
                 <posx>180</posx>
-                <posy>30</posy>
+                <posy>60</posy>
                 <width>1100</width>
                 <height>450</height>
                 <visible>false</visible>
@@ -224,7 +224,7 @@
             <control type="image">
                 <description>background</description>
                 <posx>0</posx>
-                <posy>30</posy>
+                <posy>60</posy>
                 <width>1280</width>
                 <height>450</height>
                 <texture>black-back.png</texture>
@@ -240,7 +240,7 @@
             <control type="image" id="4601">
                 <description>header</description>
                 <posx>0</posx>
-                <posy>0</posy>
+                <posy>30</posy>
                 <width>1280</width>
                 <height>28</height>
                 <texture>tvg-program-nofocus.png</texture>
@@ -249,25 +249,25 @@
                 <aligny>center</aligny>
                 <visible>false</visible>
             </control>
-
-
             <control type="image" id="4602">
                 <description>footer</description>
                 <posx>0</posx>
-                <posy>510</posy>
+                <posy>540</posy>
                 <width>1280</width>
                 <height>220</height>
                 <texture>tvg-program-nofocus.png</texture>
                 <aspectratio>-</aspectratio>
                 <align>center</align>
                 <aligny>center</aligny>
+
+
                 <visible>false</visible>
             </control>
             <control type="image">
                 <description>footer</description>
-                <posx>427</posx>
-                <posy>480</posy>
-                <width>853</width>
+                <posx>372</posx>
+                <posy>510</posy>
+                <width>908</width>
                 <height>238</height>
                 <texture>tvg-tv.png</texture>
                 <aspectratio>stretch</aspectratio>
@@ -279,7 +279,7 @@
             <control type="image" id="4100">
                 <description>time bar</description>
                 <posx>180</posx>
-                <posy>30</posy>
+                <posy>60</posy>
                 <width>-2</width>
                 <height>446</height>
                 <visible>Control.IsVisible(4200)</visible>
@@ -290,7 +290,7 @@
             <control type="image">
                 <description>channels background</description>
                 <posx>2</posx>
-                <posy>30</posy>
+                <posy>60</posy>
                 <width>176</width>
                 <height>558</height>
                 <visible>false</visible>
@@ -332,7 +332,7 @@
             <!-- Date and time row -->
             <control type="group">
                 <posx>0</posx>
-                <posy>0</posy>
+                <posy>30</posy>
                 <width>1280</width>
                 <height>40</height>
                 <visible>true</visible>
@@ -346,6 +346,9 @@
                     <texture>tvguide-program-red.png</texture>
                     <visible>false</visible>
                 </control>
+
+
+
 
                 <control type="label">
                     <description>Displays todays date</description>
@@ -507,7 +510,7 @@
 
                 <control type="label">
                     <description>time label</description>
-                    <posx>12</posx>
+                    <posx>0</posx>
                     <posy>0</posy>
                     <width>180</width>
                     <height>30</height>
@@ -519,13 +522,13 @@
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
                 </control>
-
             </control>
+
 
             <!-- Channels column -->
             <control type="group">
                 <posx>0</posx>
-                <posy>30</posy>
+                <posy>60</posy>
                 <width>180</width>
                 <height>640</height>
                 <visible>true</visible>
@@ -1328,20 +1331,21 @@
             <control type="label" id="7028">
                 <description>Category name</description>
                 <posx>1260</posx>
-                <posy>480</posy>
+                <posy>510</posy>
                 <width>650</width>
-                <height>30</height>
+                <height>20</height>
                 <textcolor>grey</textcolor>
                 <font>font13</font>
                 <align>right</align>
+                <aligny>center</aligny>
                 <visible>false</visible>
                 <scroll>true</scroll>
                 <label>-</label>
             </control>
             <control type="label" id="7025">
                 <description>Channel name</description>
-                <posx>435</posx>
-                <posy>490</posy>
+                <posx>400</posx>
+                <posy>530</posy>
                 <width>650</width>
                 <height>30</height>
                 <textcolor>grey</textcolor>
@@ -1353,8 +1357,8 @@
             </control>
             <control type="label" id="7020">
                 <description>Program title</description>
-                <posx>435</posx>
-                <posy>490</posy>
+                <posx>400</posx>
+                <posy>530</posy>
                 <width>645</width>
                 <height>30</height>
                 <textcolor>white</textcolor>
@@ -1369,7 +1373,7 @@
             <control type="label" id="7021">
                 <description>Program time</description>
                 <posx>1260</posx>
-                <posy>490</posy>
+                <posy>530</posy>
                 <width>1090</width>
                 <height>40</height>
                 <textcolor>white</textcolor>
@@ -1380,9 +1384,9 @@
                 <visible>true</visible>
             </control>
             <control type="progress" id="7026">
-                <posx>427</posx>
-                <posy>478</posy>
-                <width>850</width>
+                <posx>372</posx>
+                <posy>508</posy>
+                <width>906</width>
                 <height>2</height>
                 <lefttexture />
                 <righttexture />
@@ -1392,10 +1396,10 @@
             </control>
             <control type="textbox" id="7022">
                 <description>Program description</description>
-                <posx>435</posx>
-                <posy>520</posy>
-                <width>840</width>
-                <height>200</height>
+                <posx>400</posx>
+                <posy>560</posy>
+                <width>845</width>
+                <height>140</height>
                 <textcolor>white</textcolor>
                 <font>font13</font>
                 <align>left</align>
@@ -1407,10 +1411,10 @@
             <control type="image" id="7023">
                 <description>Program logo / Source logo</description>
                 <posx>0</posx>
-                <posy>480</posy>
-                <width>425</width>
-                <height>240</height>
-                <aligny>top</aligny>
+                <posy>210r</posy>
+                <width>370</width>
+                <height>210</height>
+                <aligny>center</aligny>
                 <aspectratio>keep</aspectratio>
                 <fadetime>0</fadetime>
                 <texture>-</texture>
@@ -1419,10 +1423,10 @@
             <control type="image" id="7027">
                 <description>Program logo / Source logo</description>
                 <posx>0</posx>
-                <posy>480</posy>
-                <width>425</width>
-                <height>240</height>
-                <aligny>top</aligny>
+                <posy>210r</posy>
+                <width>370</width>
+                <height>210</height>
+                <aligny>center</aligny>
                 <aspectratio>scale</aspectratio>
                 <fadetime>0</fadetime>
                 <texture>-</texture>
@@ -1524,9 +1528,9 @@
             <control type="videowindow">
                 <description>video window</description>
                 <posx>0</posx>
-                <posy>240r</posy>
-                <width>424</width>
-                <height>240</height>
+                <posy>210r</posy>
+                <width>370</width>
+                <height>210</height>
                 <aligny>top</aligny>
                 <aspectratio>keep</aspectratio>
                 <visible>!Control.IsVisible(5000)+Control.IsVisible(5002)</visible>
@@ -1590,7 +1594,7 @@
                 <control type="button" id="44301">
                     <description>navigate to now BIG</description>
                     <posx>710</posx>
-                    <posy>480</posy>
+                    <posy>510</posy>
                     <width>288</width>
                     <height>200</height>
                     <label></label>
@@ -1605,7 +1609,7 @@
                 <control type="button" id="44302">
                     <description>navigate left BIG</description>
                     <posx>430</posx>
-                    <posy>480</posy>
+                    <posy>510</posy>
                     <width>278</width>
                     <height>200</height>
                     <label></label>
@@ -1620,7 +1624,7 @@
                 <control type="button" id="4313">
                     <description>first channel</description>
                     <posx>0</posx>
-                    <posy>0</posy>
+                    <posy>30</posy>
                     <width>180</width>
                     <height>30</height>
                     <label></label>
@@ -1635,7 +1639,7 @@
                 <control type="button" id="4318">
                     <description>next day</description>
                     <posx>100r</posx>
-                    <posy>0</posy>
+                    <posy>30</posy>
                     <width>100</width>
                     <height>30</height>
                     <label></label>
@@ -1650,7 +1654,7 @@
                 <control type="button" id="4319">
                     <description>prev day</description>
                     <posx>200r</posx>
-                    <posy>0</posy>
+                    <posy>30</posy>
                     <width>100</width>
                     <height>30</height>
                     <label></label>
@@ -1665,7 +1669,7 @@
                 <control type="button" id="44303">
                     <description>navigate up BIG</description>
                     <posx>0</posx>
-                    <posy>30</posy>
+                    <posy>60</posy>
                     <width>180</width>
                     <height>208</height>
                     <label></label>
@@ -1680,7 +1684,7 @@
                 <control type="button" id="44304">
                     <description>navigate down BIG</description>
                     <posx>0</posx>
-                    <posy>240</posy>
+                    <posy>270</posy>
                     <width>180</width>
                     <height>240</height>
                     <label></label>
@@ -1695,7 +1699,7 @@
                 <control type="button" id="44305">
                     <description>navigate right BIG</description>
                     <posx>1000</posx>
-                    <posy>480</posy>
+                    <posy>510</posy>
                     <width>280</width>
                     <height>200</height>
                     <label></label>
@@ -1711,7 +1715,7 @@
                 <control type="button" id="4309">
                     <description>pip toggle</description>
                     <posx>0</posx>
-                    <posy>22r</posy>
+                    <posy>20r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>PIP</label>
@@ -1739,6 +1743,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
                 <control type="button" id="4311">
@@ -1755,6 +1760,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
                 <control type="button" id="4312">
@@ -1771,6 +1777,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
                 <control type="button" id="4314">
@@ -1787,6 +1794,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
                 <control type="button" id="4315">
@@ -1803,6 +1811,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
                 <control type="button" id="4316">
@@ -1983,9 +1992,211 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+
                 </control>
 
             </control>
+
+            <control type="image" id="7000">
+                <left>0</left>
+                <top>0</top>
+                <width>1280</width>
+                <height>30</height>
+                <texture>white.png</texture>
+                <visible>false</visible>
+            </control>
+
+            <control type="image">
+                <description>categories background</description>
+                <left>0</left>
+                <top>0</top>
+                <width>1280</width>
+                <height>30</height>
+                <texture>black-back.png</texture>
+                <visible>false</visible>
+            </control>
+
+            <control type="button" id="7005">
+                <description>program category</description>
+                <posx>1</posx>
+                <posy>1</posy>
+                <width>158</width>
+                <height>28</height>
+                <label>Category</label>
+                <font>font13</font>
+                <aligny>center</aligny>
+                <align>center</align>
+                <textcolor>grey</textcolor>
+                <focusedcolor>black</focusedcolor>
+                <texturefocus>tvg-button-focus.png</texturefocus>
+                <texturenofocus>tvg-button-nofocus.png</texturenofocus>
+                <onright>7004</onright>
+                <onclick></onclick>
+            </control>
+
+            <control type="list" id="7004">
+                <description>categories</description>
+                <left>160</left>
+                <top>1</top>
+                <width>1120</width>
+                <height>28</height>
+                <visible>true</visible>
+                <onup></onup>
+                <ondown></ondown>
+                <onleft>7005</onleft>
+                <onright></onright>
+                <viewtype label="3D list">list</viewtype>
+                <orientation>horizontal</orientation>
+
+                <itemlayout width="160" height="28">
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>158</width>
+                        <height>28</height>
+                        <texture>tvg-button-nofocus.png</texture>
+                        <visible>true</visible>
+                    </control>
+                    <control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>160</width>
+                        <height>28</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>blue</selectedcolor>
+                        <info>ListItem.Label</info>
+                    </control>
+                </itemlayout>
+                <focusedlayout width="160" height="28">
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>158</width>
+                        <height>28</height>
+                        <texture>tvg-program-focus.png</texture>
+                        <visible>true</visible>
+                    </control>
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>158</width>
+                        <height>28</height>
+                        <texture>tvg-button-focus.png</texture>
+                        <visible>Control.HasFocus(7004)</visible>
+                    </control>
+                    <control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>160</width>
+                        <height>28</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>black</textcolor>
+                        <selectedcolor>yellow</selectedcolor>
+                        <info>ListItem.Label</info>
+                    </control>
+                    <!--<control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>170</width>
+                        <height>20</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>black</textcolor>
+                        <selectedcolor>yellow</selectedcolor>
+                        <info>ListItem.Label</info>
+                        <visible>Control.HasFocus(7004)</visible>
+                    </control>-->
+                </focusedlayout>
+            </control>
+
+
+            <control type="list" id="7100">
+                <description>action bar</description>
+                <left>0</left>
+                <top>30r</top>
+                <width>1280</width>
+                <height>28</height>
+                <visible>true</visible>
+                <onup></onup>
+                <ondown></ondown>
+                <onleft></onleft>
+                <onright></onright>
+                <viewtype label="3D list">list</viewtype>
+                <orientation>horizontal</orientation>
+
+                <itemlayout width="91" height="28">
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>89</width>
+                        <height>28</height>
+                        <texture>tvg-button-nofocus.png</texture>
+                        <visible>true</visible>
+                    </control>
+                    <control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>91</width>
+                        <height>28</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>blue</selectedcolor>
+                        <info>ListItem.Label</info>
+                    </control>
+                </itemlayout>
+                <focusedlayout width="91" height="28">
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>89</width>
+                        <height>28</height>
+                        <texture>tvg-program-nofocus.png</texture>
+                        <visible>true</visible>
+                    </control>
+                    <control type="image">
+                        <posx>1</posx>
+                        <posy>0</posy>
+                        <width>89</width>
+                        <height>28</height>
+                        <texture>tvg-button-focus.png</texture>
+                        <visible>Control.HasFocus(7100)</visible>
+                    </control>
+                    <control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>91</width>
+                        <height>28</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>yellow</selectedcolor>
+                        <info>ListItem.Label</info>
+                    </control>
+                    <!--<control type="label">
+                        <left>0</left>
+                        <top>0</top>
+                        <width>170</width>
+                        <height>20</height>
+                        <font>font13</font>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <textcolor>black</textcolor>
+                        <selectedcolor>yellow</selectedcolor>
+                        <info>ListItem.Label</info>
+                        <visible>Control.HasFocus(7004)</visible>
+                    </control>-->
+                </focusedlayout>
+            </control>
+
 
         </control>
 
