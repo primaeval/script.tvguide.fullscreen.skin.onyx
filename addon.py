@@ -21,3 +21,4 @@ if skin > -1:
         tvgf.setSetting('program.background.image.source', '0')
         tvgf.setSetting('program.background.color', '[COLOR ff606060]black[/COLOR]')
         tvgf.setSetting('program.background.flat', 'true')
+        tvgf.setSetting('action.bar', 'false')
