@@ -381,6 +381,7 @@
                     <width>270</width>
                     <height>30</height>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -403,6 +404,7 @@
                     <width>272</width>
                     <height>30</height>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -425,6 +427,7 @@
                     <width>272</width>
                     <height>30</height>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -447,6 +450,7 @@
                     <width>270</width>
                     <height>30</height>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -484,6 +488,7 @@
                     <width>270</width>
                     <height>30</height>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <font>font10</font>
                     <align>right</align>
                     <aligny>center</aligny>
@@ -515,6 +520,7 @@
                     <align>center</align>
                     <aligny>center</aligny>
                     <textcolor>firebrick</textcolor>
+                    <shadowcolor>black</shadowcolor>
                     <shadowcolor></shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
@@ -1459,7 +1465,7 @@
                     <posy>0</posy>
                     <posx>-340</posx>
                     <posy>-280</posy>
-                    <texture>black.png</texture>
+                    <texture>background-cover.png</texture>
                 </control>
 
                 <control type="image">
