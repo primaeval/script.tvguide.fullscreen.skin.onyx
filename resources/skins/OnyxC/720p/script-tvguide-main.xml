@@ -737,7 +737,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4110),)</visible>
                 </control>
@@ -750,7 +750,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4111),)</visible>
                 </control>
@@ -763,7 +763,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4112),)</visible>
                 </control>
@@ -776,7 +776,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4113),)</visible>
                 </control>
@@ -789,7 +789,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4114),)</visible>
                 </control>
@@ -802,7 +802,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4115),)</visible>
                 </control>
@@ -815,7 +815,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4116),)</visible>
                 </control>
@@ -828,7 +828,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4117),)</visible>
                 </control>
@@ -841,7 +841,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4118),)</visible>
                 </control>
@@ -854,7 +854,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -868,7 +868,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -882,7 +882,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4121),)</visible>
                 </control>
@@ -895,7 +895,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4122),)</visible>
                 </control>
@@ -908,7 +908,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4123),)</visible>
                 </control>
@@ -921,7 +921,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4124),)</visible>
                 </control>
@@ -934,7 +934,7 @@
                     <textcolor>ffffffff</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4125), )</visible>
                 </control>
@@ -1732,10 +1732,10 @@
                 <control type="button" id="4310">
                     <description>now list</description>
                     <posx>630</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>NOW</label>
+                    <label>now</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1743,16 +1743,16 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
                 <control type="button" id="4311">
                     <description>next list</description>
                     <posx>730</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>NEXT</label>
+                    <label>next</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1760,16 +1760,16 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
                 <control type="button" id="4312">
                     <description>search</description>
                     <posx>830</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>SEARCH</label>
+                    <label>search</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1777,16 +1777,16 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
                 <control type="button" id="4314">
                     <description>channel number</description>
                     <posx>430</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>NUM</label>
+                    <label>num</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1794,16 +1794,16 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
                 <control type="button" id="4315">
                     <description>stop</description>
                     <posx>530</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>STOP</label>
+                    <label>stop</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1811,16 +1811,16 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
                 <control type="button" id="4316">
                     <description>favourites</description>
                     <posx>930</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
-                    <label>FAVS</label>
+                    <label>favs</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1828,7 +1828,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+                    <visible>true</visible>
                 </control>
 
                 <control type="button" id="4317">
@@ -1869,7 +1869,7 @@
                 <control type="button" id="4301">
                     <description>navigate to now</description>
                     <posx>430</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>HOME</label>
@@ -1886,7 +1886,7 @@
                 <control type="button" id="4302">
                     <description>navigate left</description>
                     <posx>530</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>LEFT</label>
@@ -1902,7 +1902,7 @@
                 <control type="button" id="4303">
                     <description>navigate up</description>
                     <posx>630</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>UP</label>
@@ -1918,7 +1918,7 @@
                 <control type="button" id="4304">
                     <description>navigate down</description>
                     <posx>730</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>DOWN</label>
@@ -1934,7 +1934,7 @@
                 <control type="button" id="4305">
                     <description>navigate right</description>
                     <posx>830</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>RIGHT</label>
@@ -1950,7 +1950,7 @@
                 <control type="button" id="4307">
                     <description>menu</description>
                     <posx>930</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>90</width>
                     <height>20</height>
                     <label>MENU</label>
@@ -1966,9 +1966,9 @@
                 <control type="button" id="4308">
                     <description>categories</description>
                     <posx>180</posx>
-                    <posy>30</posy>
+                    <posy>0</posy>
                     <width>900</width>
-                    <height>30</height>
+                    <height>20</height>
                     <label></label>
                     <font>font13</font>
                     <aligny>center</aligny>
@@ -1981,10 +1981,10 @@
                 <control type="button" id="4306">
                     <description>exit</description>
                     <posx>1200</posx>
-                    <posy>20r</posy>
+                    <posy>22r</posy>
                     <width>80</width>
                     <height>20</height>
-                    <label>QUIT</label>
+                    <label>quit</label>
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
@@ -1992,7 +1992,7 @@
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
-                    <visible>false</visible>
+
                 </control>
 
             </control>
