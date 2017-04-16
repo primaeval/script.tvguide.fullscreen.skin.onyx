@@ -2024,9 +2024,9 @@
 
             <control type="button" id="7005">
                 <description>program category</description>
-                <posx>1</posx>
+                <posx>0</posx>
                 <posy>1</posy>
-                <width>158</width>
+                <width>178</width>
                 <height>28</height>
                 <label>Category</label>
                 <font>font13</font>
@@ -2042,9 +2042,9 @@
 
             <control type="list" id="7004">
                 <description>categories</description>
-                <left>160</left>
+                <left>179</left>
                 <top>1</top>
-                <width>1120</width>
+                <width>1100</width>
                 <height>28</height>
                 <visible>true</visible>
                 <onup></onup>
@@ -2054,11 +2054,11 @@
                 <viewtype label="3D list">list</viewtype>
                 <orientation>horizontal</orientation>
 
-                <itemlayout width="160" height="28">
+                <itemlayout width="220" height="28">
                     <control type="image">
                         <posx>1</posx>
                         <posy>0</posy>
-                        <width>158</width>
+                        <width>218</width>
                         <height>28</height>
                         <texture>tvg-button-nofocus.png</texture>
                         <visible>true</visible>
@@ -2066,7 +2066,7 @@
                     <control type="label">
                         <left>0</left>
                         <top>0</top>
-                        <width>160</width>
+                        <width>220</width>
                         <height>28</height>
                         <font>font13</font>
                         <align>center</align>
@@ -2076,11 +2076,11 @@
                         <info>ListItem.Label</info>
                     </control>
                 </itemlayout>
-                <focusedlayout width="160" height="28">
+                <focusedlayout width="220" height="28">
                     <control type="image">
                         <posx>1</posx>
                         <posy>0</posy>
-                        <width>158</width>
+                        <width>218</width>
                         <height>28</height>
                         <texture>tvg-program-focus.png</texture>
                         <visible>true</visible>
@@ -2088,7 +2088,7 @@
                     <control type="image">
                         <posx>1</posx>
                         <posy>0</posy>
-                        <width>158</width>
+                        <width>218</width>
                         <height>28</height>
                         <texture>tvg-button-focus.png</texture>
                         <visible>Control.HasFocus(7004)</visible>
@@ -2096,7 +2096,7 @@
                     <control type="label">
                         <left>0</left>
                         <top>0</top>
-                        <width>160</width>
+                        <width>220</width>
                         <height>28</height>
                         <font>font13</font>
                         <align>center</align>
