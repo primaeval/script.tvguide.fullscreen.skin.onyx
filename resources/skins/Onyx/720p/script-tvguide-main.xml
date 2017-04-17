@@ -1465,7 +1465,7 @@
                     <posy>0</posy>
                     <posx>-340</posx>
                     <posy>-280</posy>
-                    <texture>background-cover.png</texture>
+                    <texture>black.png</texture>
                 </control>
 
                 <control type="image">
