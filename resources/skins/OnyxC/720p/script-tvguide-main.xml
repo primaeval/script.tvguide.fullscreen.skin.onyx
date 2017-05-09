@@ -1437,7 +1437,7 @@
                 <lefttexture />
                 <righttexture />
                 <texturebg  colordiffuse="">invisible.png</texturebg>
-                <midtexture colordiffuse="firebrick">tvg-button-focus.png</midtexture>
+                <midtexture colordiffuse="white">tvg-button-focus.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(7026),0)</visible>
             </control>
             <control type="textbox" id="7022">
